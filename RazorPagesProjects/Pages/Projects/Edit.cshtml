@@ -35,6 +35,11 @@
                 <span asp-validation-for="Project.Price" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="Project.Country" class="control-label"></label>
+                <input asp-for="Project.Country" class="form-control" />
+                <span asp-validation-for="Project.Country" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>
